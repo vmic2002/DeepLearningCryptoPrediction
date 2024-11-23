@@ -1,0 +1,10 @@
+# Need to use python3.10 for torch
+
+brew install python@3.10
+pip3.10 install pandas
+pip3.10 install matplotlib
+pip3.10 install torch
+pip3.10 install scikit-learn
+
+
+python3.10 main.py
