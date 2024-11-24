@@ -11,7 +11,7 @@ import torch.optim as optim
 #TODO take into account MARKET SENTIMENT (POSITIVE VS NEGATIVE VIEW ONLINE ABOUT PRICE) + ANYTHING ELSE THAT COULD INFLUENCE BITCOIN PRICE, LOOK UP ALL FACTORS FOR BITCOIN PRICE, MACROECONOMIC INDICATORS
 
 #PARAMS:
-seq_len = 2 # (3 works very well) look at the past seq_len days to predict next value
+seq_len = 3 # (3 works very well) look at the past seq_len days to predict next value
 features_for_prediction=['Close', 'Open', 'High', 'Low', 'Volume']  # Multiple features
 # WE ARE TRYING TO PREDICT ALL FEATURES in features_for_prediction
 
@@ -21,7 +21,7 @@ Loss_type = 1 #1: MSE, 2:L1, 3:CrossEntropy
 LSTM_type = 1 #1: LSTM, 2: CNNLSTM, 3: BidirectionalLSTM also work
 input_size = len(features_for_prediction)  # Subset of features (for example [Close, Volume, High, Low, Open])
 hidden_size = 50  # Number of LSTM units
-num_layers = 2
+num_layers = 1
 lr = 0.01 # learning rate
 num_epochs = 80
 
