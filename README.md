@@ -6,9 +6,9 @@ Uses 'Close', 'Open', 'High', 'Low', and 'Volume' as features.
 
 The following graphs are tested on Bitcoin.
 
-![Screenshot 2024-11-23 at 6 14 15 PM](https://github.com/user-attachments/assets/dadb5537-db22-40f7-91ad-0d2d70bbf7b2)
+![Screenshot 2024-11-24 at 5 24 16 PM](https://github.com/user-attachments/assets/247fa3ef-bae4-43cf-ac28-2153d2af333e)
 
-![Screenshot 2024-11-23 at 6 14 49 PM](https://github.com/user-attachments/assets/f10fab71-7e3c-4818-bb8e-b26f129bcbba)
+![Screenshot 2024-11-24 at 5 24 35 PM](https://github.com/user-attachments/assets/8d86094d-f32a-4b8e-adf1-696af7df7724)
 
 This project is ongoing, there is still a lot of hyperparameter tuning needed to be done.
 
