@@ -118,6 +118,7 @@ def normalize_data(df, features, scaler):
 def create_sequential_data(data, seq_len):
     # example: for a sequence length of 3, each input to the model will consist of
     # 3 past data points, and the target will be the next data point.
+    # SLIDING WINDOW APPROACH FOR LSTM
     X_data, y_data = [], []
     for i in range(len(data) - seq_len):
         X_data.append(data[i:i+seq_len])  # Sequence of previous features
